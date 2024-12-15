@@ -22,8 +22,9 @@ Prerequisites: Node.js (Recommended version: 18.x or higher)
 
 1) Clone the repository (if not already done) 
 2) Install dependencies (npm i) 
-3) Add your env configurations
-3) Start the development server (npm run dev)
+3) Tailwind CSS configuration
+4) Add your env configurations
+5) Start the development server (npm run dev)
 
 Deployment: The application is deployed on Render (Free plan)
 
