@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const isDev = true;
+const isDev = false;
 const baseURL = isDev ? "http://localhost:4000/api" : "https://user-management-server-iejx.onrender.com/api";
 
 const API = axios.create({ baseURL });
