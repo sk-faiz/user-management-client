@@ -1,8 +1,30 @@
-# React + Vite
+# User Management Frontend with ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Web App Endpoint: https://user-management-client-1piy.onrender.com/
 
-Currently, two official plugins are available:
+This is a modern frontend application built using React, Vite, Tailwind CSS, Moment.js for date manipulation, React Toastify for notifications, and Axios for handling API calls. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+
+ - React with Vite: Utilizes React for building the user interface and Vite for a lightning-fast build tool with hot module replacement (HMR).
+
+ - Tailwind CSS: Tailwind CSS provides utility-first CSS for fast styling and custom design, with minimal need for writing custom CSS.
+
+ - Moment.js: Moment.js is used for date manipulation and formatting, ensuring that all dates in the application are correctly displayed and handled.
+
+ - React Toastify: React Toastify is integrated for user-friendly notifications, giving instant feedback to the users about actions like success, error, and info messages.
+
+ - Axios for API Calls: Axios is used to manage API calls and handle responses, ensuring seamless communication between the frontend and backend.
+
+Setup Instructions:
+
+Prerequisites: Node.js (Recommended version: 18.x or higher)
+
+- 1) Clone the repository (if not already done) 
+- 2) Install dependencies (npm i) 
+- 3) Add your env configurations
+- 3) Start the development server (npm run dev)
+
+Deployment: The application is deployed on Render (Free plan)
+
+Live API Endpoint: https://user-management-client-1piy.onrender.com/
