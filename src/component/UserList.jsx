@@ -149,7 +149,6 @@ const UserList = () => {
                                 </svg>
                             </div>
                             <h1 className="mt-3 text-lg text-gray-800 light:text-white">No users found</h1>
-                            <p className="mt-2 text-gray-500 light:text-gray-400">Your search “{search}” did not match any user.</p>
                             <div className="flex items-center mt-4 sm:mx-auto gap-x-3">
                                 <button onClick={() => setSearch("")} className="w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg sm:w-auto light:hover:bg-gray-800 light:bg-gray-900 hover:bg-gray-100 light:text-gray-200 light:border-gray-700">
                                     Clear Search
